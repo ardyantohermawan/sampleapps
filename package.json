@@ -1,0 +1,26 @@
+{
+  "name": "sampleapps",
+  "version": "0.1.0",
+  "description": "Docker NodeJS Sample Apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardyantohermawan"
+  },
+  "keywords": [
+    "docker",
+    "nodejs",
+    "example"
+  ],
+  "author": "Ardyanto Hermawan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.19",
+    "mqtt": "^2.1.3",
+    "redis": "^2.6.3"
+  }
+}
